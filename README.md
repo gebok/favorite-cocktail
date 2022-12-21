@@ -1,2 +1,2 @@
-# dog-picture
-A website that show pictures of dogs based on their breed
+# favorite-cocktail
+A website that show your own cocktails and images
