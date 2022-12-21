@@ -1,6 +1,6 @@
 <!-- 
-    Author: Karo 
-    A webpage about dogs
+    Author: Karo Gebo
+    A webpage about cocktails
 -->
 
 <!DOCTYPE html>
@@ -8,21 +8,26 @@
     <head>
         <title>Favorite Cocktail</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>It's your Favorite Cocktail</h1>
-        <div>
-            <p>
-                Looking for cocktail recipes everyone will love? From swanky Martinis to casual poolside refreshers, 
-                these classic favorites are guaranteed to provide a fun and familiar feel to your next party.
-            </p>
-            <select>
-                <option>Favorite Cocktail</option>
-            </select>
-            <input type="button" value="Let's Party">
-        </div>
-        <div>
-            <img src="" alt="">
+        <div id="bg">
+            <h1>Your Favorite Cocktail</h1>
+            <div class="panel">
+                <p>
+                    Looking for cocktail recipes everyone will love? From swanky Martinis to casual poolside refreshers,
+                    these classic favorites are guaranteed to provide a fun and familiar feel to your next party.
+                </p>
+                <div class="panel">
+                    <select name="cocktail" id="favorite-cocktail">
+                        <option>What is your Favorite Cocktail?</option>
+                    </select>
+                </div>
+                <!-- <input type="button" value="Let's Party" id="select-panel"> -->
+            </div>
+            <!-- <div class="panel">
+                <img id="cocktail-image"></img>
+            </div> -->
         </div>
     </body>
 </html>

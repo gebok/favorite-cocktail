@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/karo.gebo/Sites/dog-picture/index.html"
+            "file": "/Users/karo.gebo/Sites/favorite-cocktail/index.html"
         }
     ]
 }
